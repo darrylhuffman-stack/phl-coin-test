@@ -1,0 +1,43 @@
+{
+    "startQuestion": {
+        "title": "Have you eaten cake?",
+        "desc": "As in, the fluffy bready thing",
+        "option1Text": "No",
+        "option1Followup": {
+            "redirectToEnding": "Sketchy"
+        },
+        "option2Text": "Yes",
+        "option2Followup": {
+            "title": "Have tried wine?",
+            "desc": "As in, what jesus made with water",
+            "option1Text": "No",
+            "option1Followup": {
+                "redirectToEnding": "Bad"
+            },
+            "option2Text": "Yes",
+            "option2Followup": {
+                "title": "Do you eat kosher?",
+                "desc": "If you eat pork, that's a no",
+                "option1Followup": {
+                    "redirectToEnding": "Bad"
+                },
+                "option1Text": "No",
+                "option2Text": "Yes",
+                "option2Followup": {
+                    "redirectToEnding": "Good"
+                }
+            }
+        }
+    },
+    "endings": {
+        "Good": {
+            "title": "You're good to go ahead"
+        },
+        "Bad": {
+            "title": "That's too bad"
+        },
+        "Sketchy": {
+            "title": "That's odd..."
+        }
+    }
+}

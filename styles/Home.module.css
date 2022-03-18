@@ -12,6 +12,82 @@
   align-items: center;
 }
 
+.questions {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  background-color: #21222e;
+  border-radius: 10px;
+  padding: 40px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.questions .questionText {
+  margin: auto auto;
+}
+
+.questions h2 {
+  text-align: center;
+}
+
+.questions p {
+  text-align: center;
+  opacity: 0.9;
+}
+
+.questions .questionButtons {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  gap: 10px;
+  margin-top: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.questions .questionBack {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0.5;
+  font-size: 11px;
+
+}
+
+/*.questions .questionBack:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  transform: rotate(45deg);
+  border-left: 2px solid #CCC;
+  border-bottom: 2px solid #CCC;
+  top: 30%;
+  left: 40%;
+}*/
+
+.questions .questionButton {
+  width: 100%;
+  text-align: center;
+  line-height: 38px;
+  cursor: pointer;
+}
+
+.questions .questionButton:first-of-type {
+  background-color: #ff391f;
+}
+
+.questions .questionButton:last-of-type {
+  background-color: #23cf0c;
+}
+
+
+
 .footer {
   display: flex;
   flex: 1;
@@ -42,7 +118,8 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
+  margin-bottom: 40px;
 }
 
 .title,

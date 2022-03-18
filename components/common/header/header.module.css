@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 136px;
+  width: 100%;
+}
+
+.headerLogo {
+  height: 38.5px;
+  margin: auto 20px auto 23.5px; 
+}
+
+
+
+
+.links {
+  margin: auto 23.5px auto auto;
+  display: flex;
+}
+
+.buttonOutline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  padding: 8px 16px;
+  border: 1px solid #ff553e;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ff553e;
+  transition: .2s;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 20px;
+  white-space: pre;
+  font-weight: 500;
+}
